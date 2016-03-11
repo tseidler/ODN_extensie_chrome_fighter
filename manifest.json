@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "ODN Fighter",
+  "version": "0.0.0.1",
+
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
