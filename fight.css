@@ -1,6 +1,28 @@
 #ODN_FIGHTER {
   position: absolute;
   width: 70px;
-  height: 80px;  
+  height: 80px;
   display: none;
+}
+
+.attack {
+  animation: attack steps(4) 0.5s;
+}
+
+@keyframes attack {
+  from { background-position: 0px 0px; }
+  to { background-position: -280px 0px; }
+}
+
+.fireball {
+  position: absolute;
+  width: 70px;
+  height: 80px;
+  display: block;
+  animation: fireball steps(2) 0.5s infinite;
+}
+
+@keyframes fireball {
+  from { background-position: 0px -80px; }
+  to { background-position: -120px -80px; }
 }
