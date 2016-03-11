@@ -20,5 +20,6 @@
       "css": ["fight.css"],
       "js": ["fight.js"]
     }
-  ]
+  ],
+  "web_accessible_resources": ["images/sprites.png"]
 }
