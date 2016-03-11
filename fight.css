@@ -1,8 +1,8 @@
-#ODN_FIGHTER {
+.sprite {
   position: absolute;
   width: 70px;
   height: 80px;
-  display: none;
+  display: block;
 }
 
 .attack {
@@ -14,11 +14,7 @@
   to { background-position: -280px 0px; }
 }
 
-.fireball {
-  position: absolute;
-  width: 70px;
-  height: 80px;
-  display: block;
+.fireball {  
   animation: fireball steps(2) 0.5s infinite;
 }
 
